@@ -1,6 +1,6 @@
-#include"bit.h"
+//#include"bit.h"
 // Function to set the bth bit of a 
-
+int main(){
 int setBit(int a, int b) 
 { 
     return (a | (1 << (b - 1))); 
@@ -22,4 +22,5 @@ int toggleBit(int a, int b)
 int query(int a,int b)
 {
     return(a & (1<<(b-1)));
+}
 }
